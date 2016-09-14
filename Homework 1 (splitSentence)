@@ -1,0 +1,14 @@
+function splitString(sentence) {
+  var result = "";
+  var sentenceArr = sentence.split("");
+  for (let i = 0; i < sentence.length; i++) {
+    result += sentenceArr[i];
+
+    if (i < sentence.length - 1) {
+      result += " ";
+    }
+  }
+  return console.log(result);
+}
+
+splitString("sdsadasa sadasdas sadsada asdsadsa asd");
