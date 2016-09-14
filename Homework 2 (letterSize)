@@ -1,0 +1,14 @@
+function changeSizeLetter(word) {
+  let result = "";
+
+  for (let i = 0; i < word.length; i++) {
+    if (word[i] == word[i].toUpperCase()) {
+      result += word[i].toLowerCase();
+    } else if (word[i] == word[i].toLowerCase()) {
+      result += word[i].toUpperCase();
+    }
+  }
+  return console.log(result);
+}
+
+changeSizeLetter("BaRtEk");
